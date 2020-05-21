@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Test01"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of Test01.This description is used to generate tags and improve search results"
+  spec.version      = "0.0.2"
+  spec.summary      = "A short description of Test01.技术摘要没有意义，为啥啊？"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,6 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                   测试工程，测试发布到Cocospod,
                   A short description of Test01.
+                  新增其他代码测试发布
                   This description is used to generate tags and improve search results
                    DESC
 
