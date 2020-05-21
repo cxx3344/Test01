@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "Test01"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of Test01."
+  spec.summary      = "A short description of Test01.This description is used to generate tags and improve search results"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                  测试工程，测试发布到Cocospod
+                  测试工程，测试发布到Cocospod,
+                  A short description of Test01.
+                  This description is used to generate tags and improve search results
                    DESC
 
   spec.homepage     = "https://github.com/cxx3344/Test01"
@@ -40,7 +42,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "MIT LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
